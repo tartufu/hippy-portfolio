@@ -63,6 +63,10 @@ h2 {
 	text-decoration: underline;
 }
 
+.image-gallery img {
+	border: 3px solid gray;
+}
+
 .footer {
 	background-color: #E17E73;
 	height: 50px; /*manually give height of 50px as all elements in footer are inline */
