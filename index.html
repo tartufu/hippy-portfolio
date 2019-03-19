@@ -3,26 +3,47 @@
 	<head>
     <meta charset="utf-8">
 		<title>Document Title</title>
-		
+
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 
-		<div class="page">
-		
-			About
+		<div class="page"> <!-- start of 960px container -->
 
-			Spirit has been working in the flower industry for 20 years. She began her work in San Francisco and has recently moved to Williamburg in Brooklyn, NY. She recently has transitioned to a lifestyle in which she enjoys frolicking in the fields on a daily basis
+            <div class="header"> <!-- this is the header section -->
+                <h1>Spirit Dunkin</h1>
+                <h2>Flower Shop Owner, Williamsburg</h2>
+            </div> <!-- end of header section -->
 
-			Her specialty is flowers for hipster weddings. Please feel free to contact Spirit anytime if you are planning a wedding that involves teepees, quilts, or lace.
+            <div class="hero-image"> <!-- this is the large wallpaper -->
+                <img src="images/orchids.jpg">
+            </div> <!-- end of large wallpaper -->
 
 
-			LINKS
-			http://en.wikipedia.org/wiki/Sunflower
+        <div class="about"> <!-- this is the about section -->
+            <h2>About</h2>
+            <br> <!-- br is line break to give spacings in text. i.e SHIFT ENTER -->
+            <p>Spirit has been working in the flower industry for 20 years. She began her work in San Francisco and has recently moved to Williamburg in Brooklyn, NY. She recently has transitioned to a lifestyle in which she enjoys frolicking in the fields on a daily basis</p>
+            <br>
+            <p>Her specialty is flowers for hipster weddings. Please feel free to contact Spirit anytime if you are planning a wedding that involves teepees, quilts, or lace. </p>
+            <br>
+            <h2>Photos</h2>
+            <br>
+            <div class="image-gallery"> <!-- image gallery within about section, we want to style them so its easier to keep in a seperate div -->
+                <img src="images/sunflowers.jpg">
+                <img src="images/water.jpg">
+                <img src="images/purple.jpg">
+                <img src="images/ocean.jpg">
+            </div> <!-- end of image gallery section -->
+        </div> <!-- end of about section -->
 
-		</div>
-		
+        <div class="footer"> <!-- this is the footer section -->
+            <p>Spirit Dunkin &copy 2012</p> <!--  &copy for copyright symbol -->
+        </div> <!-- end of footer section -->
+
+		</div> <!-- end of 960px container -->
+
 	</body>
 </html>
